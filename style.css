@@ -172,7 +172,7 @@ article.card {
     max-width: 400px;
     margin-left: 32px;
     border-radius: 10px;
-    background: linear-gradient(180deg, rgba(150, 140, 140, 0.6), rgba(46, 44, 44, 0.8));
+    background: linear-gradient(180deg, rgba(36, 36, 36, 0.6), rgba(85, 85, 85, 0.8));
     border: 3px solid rgb(0, 0, 0);
 
 }
@@ -204,23 +204,31 @@ article.card footer {
 
 article.card:hover {
     transition: 0.3s;
-    box-shadow: rgb(255, 255, 255) 2px 2px 3px 3px;
+    box-shadow: rgb(49, 49, 49) 4px 4px 1px 3px;
 
 }
 
 img.Js {
+    background: white;
+    border-radius: 30px;
     width: 90px;
 }
 
 img.htmli {
+    background: white;
+    border-radius: 30px;
     width: 160px;
 }
 
 img.css {
+    background: white;
+    border-radius: 30px;
     width: 160px;
 }
 
 img.java {
+    background: white;
+    border-radius: 30px;
     width: 160px;
 }
 
@@ -261,7 +269,7 @@ header.titulo {
     margin-bottom: 18px;
 }
 
-#text{
+#text {
     text-align: center;
     border-radius: 20px;
     margin-right: 200px;
