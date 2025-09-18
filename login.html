@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tela de Login</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="quemsoueu.html">Quem sou eu?</a></li>
+      <li>
+        <a href="#">Aulas</a>
+        <ul>
+          <li><a href="resumo.html">Resumo do curso</a></li>
+          <li><a href="formularios.html">Formulários</a></li>
+          <li><a href="tabelas.html">Tabelas</a></li>
+          <li><a href="menu.html">Menus</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="#">Cards</a></li>
+        </ul>
+      </li>
+      <li><a href="contato.html">Contatos</a></li>
+    </ul>
+  </nav>
+  <form class="login" id="loginForm">
+  <section class="container">
+    <h2 class="loginName">Login do Profissional de Saúde</h2>
+    <label for="matricula" class="nomePro">Matricula</label>
+    <input type="text" id="matricula" placeholder="Digite a Matricula" required>
+    <label for="senha" class="nomePro">Senha</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required>
+    <label for="cargo" class="nomePro">Cargo</label>
+    <select name="cargo" id="cargo" required>
+      <option value="" disabled selected>Selecione Seu Cargo</option>
+      <option value="Medicina">Médico</option>
+      <option value="Enfermagem">Enfermagem</option>
+      <option value="Odontologia">Odontologia</option>
+      <option value="Outras">Psicologia</option>
+
+
+    </select>
+    <button type="submit">Logar</button>
+
+  </section>
+</form>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
